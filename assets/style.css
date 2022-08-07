@@ -1,0 +1,139 @@
+p {
+    font-size: 25px;
+}
+/*Header Styles*/
+header {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #619606;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    top: 0;
+}
+
+header img {
+   width: 125px;
+   border-radius: 50%;
+   padding: 25;
+}
+
+header h1 {
+    font-size: 80px;
+    padding: 10px 15px;
+    color:#181599 ;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 30px;
+    
+}
+
+header nav ul li a:hover {
+    background:rgb(60, 238, 11);
+    color: #070980;
+    border-radius: 5px;
+}
+
+/*footer Styles*/
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 45px;
+    background: #619606;
+    color: #181599;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+footer ul li{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 25px;
+    background: #069678;
+    border-radius: 30%;
+    margin: 10px 10px;
+    border: solid 2px #619606;
+}
+
+footer ul li img {
+    border-radius: 30%;
+    border: solid 2px #619606;
+   
+}
+
+/*About Me Styles*/
+
+.about h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #181599;
+    background: #619606;
+}
+
+.about ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+/*My Project Styles*/
+
+.my-projects h2 {
+    font-size: 45px;
+    background: #619606;
+    color: #181599;
+}
+
+.my-projects {
+    justify-content: space-around;
+    text-align: center;
+}
+.my-projects ul { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.my-projects ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 25px;
+    margin: 10px 10px;
+    justify-content: space-around;
+    border: solid 5px #619606;
+    border-radius: 10%;
+    background: #069678;
+    max-width: 300px;
+}
+
+.my-projects h3 {
+    font-size: 30px;
+}
+
+.my-projects img {
+    max-width: 100%;
+    max-height: auto;
+    border: solid 5px #619606;
+    border-radius: 10%;
+}
