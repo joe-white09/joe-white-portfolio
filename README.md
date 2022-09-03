@@ -10,7 +10,7 @@ provide information about myself and several forms of contact.
 
 # Website
 
-https://joe-white09.github.io/Joe-White-Portfolio/
+https://joe-white09.github.io/joe-white-portfolio/
 
 ## Contribution
 Made by Joe White
